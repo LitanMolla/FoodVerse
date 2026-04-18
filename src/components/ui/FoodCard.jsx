@@ -12,7 +12,7 @@ export default function FoodCard({ food }) {
 
   return (
     <div className="">
-      <div className="bg-white border border-gray-200 rounded-2xl shadow-md w-full overflow-hidden">
+      <div className="bg-white border border-gray-200 rounded-lg duration-300 hover:bg-green-5 0 shadow-md w-full overflow-hidden">
         {/* Image */}
         <div className=" w-full ">
           <Image
@@ -26,7 +26,7 @@ export default function FoodCard({ food }) {
 
         {/* Content */}
         <div className="p-4 space-y-3">
-          <h2 className="text-lg font-semibold text-gray-800">
+          <h2 className="text-lg font-semibold text-gray-800 line-clamp-1">
             {dish_name}
           </h2>
 
